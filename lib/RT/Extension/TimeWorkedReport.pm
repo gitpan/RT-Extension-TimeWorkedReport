@@ -10,7 +10,7 @@ use warnings;
 
 =cut
 
-our $VERSION = '1.02';
+our $VERSION = '1.04';
 
 1;
 
@@ -55,6 +55,11 @@ L<http://search.cpan.org/dist/RT-Extension-TimeWorkedReport/>
 L<https://github.com/coffeemonster/rt-extension-timeworkedreport>
 
 
+=head1 SEE ALSO
+
+http://search.cpan.org/dist/RT-Extension-ActivityReports/
+
+
 =head1 LICENSE AND COPYRIGHT
 
 Copyright 2000-2012 Fran Fabrizio <fabrizio-at-uab-dot-edu>
@@ -72,8 +77,11 @@ See http://dev.perl.org/licenses/ for more information.
 This plugin is a cpan-port of the original wiki extension at
 L<http://requesttracker.wikia.com/wiki/TimeWorkedReport>
 
-    1.01  2000- 2012 - Created by Fran Fabrizio 
-    1.02  2012-12-12 - cpan-dist port by Alister West
+    1.04  2013-05-08 - User dropdown to restrict to user "Alister West"
+    1.03  2013-05-01 - Nest children if relation exists "Alister West"
+                     - Match versions mentioned in TimeWorkedReport.html
+    1.02  2012-12-12 - cpan-dist port by "Alister West"
+    1.01  2000- 2012 - Created by "Fran Fabrizio"
 
 =cut
 
